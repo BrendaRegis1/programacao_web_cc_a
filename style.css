@@ -16,6 +16,17 @@
     padding: 10px;
     background-color: green;
     color: white;
+<<<<<<< HEAD
+=======
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+>>>>>>> e8b2eb2ad3f78779bdb2ef09844bf4870ba0663e
 }
 
 .hidden {
