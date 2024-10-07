@@ -1,42 +1,27 @@
-* {
-    margin: 0px;
-}
-
-
-#titulo {
+.data-hora {
     text-align: center;
-    color: blue; 
 }
 
-.rodape {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
-    background-color: #ccc;
-}
-
-.entradas-usuario {
-    border: 1px solid;
-    width: 300px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-right: auto;
-    margin-left: auto;
+#dialog-fechar {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    right: 0;
+    
 }
 
-input, button {
-    display: block;
-    padding: 2px;
-    margin: 5px;
+#alerta-ponto-registrado {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
 }
